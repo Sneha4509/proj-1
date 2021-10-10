@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+    <head>
+        <title>Box Model</title>
+     <style >
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color:lightgrey;
+            align:center ;
+            }
+            .box{
+                margin:60px 55px;
+                padding:50px 40px;
+                border:20px solid purple;
+                width:610px;
+                height:280px;
+                text-align:center;
+                background-color: lightyellow;
+                border-radius: 10px;
+            }
+            .Container  {
+                background-color:#c5c5db;
+                border: 3px solid purple;
+                margin:25px 19px;
+                padding: 10px 19px;
+                border-radius: 20px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "box">
+            <div class = "Container ">
+            <h3>HTML</h3>
+            <p id="first">HTML (Hypertext Markup Language) is the code that is used to structure
+             a web page and its content. For example, content could be structured within a set of
+             paragraphs, a list of bulleted points, or using images and data tables.</p>
+         </div>
+
+            <div class = "Container ">
+             <h3>CSS</h3>
+            <p id="Second">Cascading Style Sheets, fondly referred to as CSS, is a simple design 
+            language intended to simplify the process of making web pages presentable.
+            CSS handles the look and feel part of a web page. </p>
+        </div>
+    </div>
+</body>
+</html>              
